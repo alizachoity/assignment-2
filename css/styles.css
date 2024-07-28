@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #111111;
+    width: 1440px;
+    height: 600px;
+}
+.nav-main{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    /* width: 1440px;
+    height: 600px; */
+    margin: 0 auto;
+}
+.nav-main-1{
+  color: orange;
+}
+.nav-main-2{
+  
+}
