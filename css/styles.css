@@ -3,22 +3,63 @@
     padding:0 ;
     box-sizing: border-box;
 }
-.header{
-    background-color: #111111;
-    width: 1440px;
-    height: 600px;
+body{
+  background-color:#111111 ;
+  color: white;
 }
+
 .nav-main{
-    border: 1px solid red;
-    display: flex;
-    justify-content: space-between;
-    /* width: 1440px;
-    height: 600px; */
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 50px;
 }
 .nav-main-1{
-  color: orange;
-}
+  color:#E6533C;
+} 
 .nav-main-2{
+  border: 2px;
+  border-color: antiquewhite;
+  border-radius: 15px;
+} 
+.btn-1{
+  background-color:#E6533C ;
+  border:2px ;
+  border-radius: 15px;
+} 
+.banner1{
+  color: white;
+  display: flex;
+  justify-content:space-between;
+}
+/* divjfsdjf */
+.Habits{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Habits1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* div2 */
+
+.run{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 15px;
+  background-color: #222222;
+  width: 1060px;
   
 }
+.run-img{
+  width: 50px;
+  height: 50px;
+}
+/* traine */
+/* .traine{
+
+} */
