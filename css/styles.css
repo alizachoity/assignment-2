@@ -6,73 +6,195 @@
 body{
   background-color:#111111 ;
   color: white;
-  margin: 0 auto;
+  margin: 0 auto;  
 }
+p{
+  color: 	#c8c6c4;
+}
+/* navsectionstar */
 .navwap{
   background-color:#111111 ;
-  max-width: 1440px;
-  max-height: 480px;
-  margin: 0 auto;
+  max-width: 100%;
+  height: 100%;
+  border: 2px solid red;
+  margin-top:0px ;  
+  padding: 2px;
+  text-align: center;
 }
 .nav-main{
   display: flex;
-  justify-content: space-between;
-  max-width: 1200px;
-  max-height: 480px;
-  margin: 0 auto;
-  padding: 50px;
-  /* margin-top:50px ; */
+  justify-content:space-around;
+  flex-direction: row;
+  max-width: 90%;
+  max-height: 280px;  
+  margin: 0 auto;    
+  /* border: 2px solid red; */
 }
 .nav-main-1{
   color:#E6533C;
+  /* border: 2px solid red;   */
+  margin-right: 60%;
 } 
 .nav-main-2{
-  border: 2px;
-  border-color: antiquewhite;
-  border-radius: 15px;
-  /* margin-top:50px ; */
-} 
-.btn-1{
-  background-color:#E6533C ;
-  border:2px ;
-  border-radius: 15px;
-  margin-top:50px ;
-} 
-.banner1{
-  color: white;
+  border: 1px ridge #c8c6c4;
+  padding-left: 40px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 40px; 
+  border-radius: 20px;
   display: flex;
-  justify-content:space-between;
-  max-width: 1200px;
-  max-height: 480px;
-  margin: 0 auto;
-  margin-top:50px ;
+  justify-content: space-evenly;
 }
-/* divjfsdjf */
+.navbtn{  
+  border-radius: 20px;
+  background-color:black;
+  color: white;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 10px;  
+  border:none;
+} 
+.navbtn-1{
+  background-color:#E6533C ;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  border-radius: 20px;  
+  margin: 0 ,auto;
+  border:none;
+} 
+/* navsectionend */
+/* bannersectionstart */
+.banner{
+  color: white;
+  display:flex;
+  flex-direction: row;  
+  justify-content:space-between;
+  max-width: 90%;
+  max-height: 100%;  
+  margin: 0 auto; 
+  margin-top: ;
+  border: 2px solid red; 
+}
+.banner1{
+  /* border: 2px solid red; */
+  display:flex;
+  flex-direction: column;  
+  max-width: 50%;
+  text-align:start ;  
+}
+.banh{
+  /* border: 2px solid red; */
+  max-width: 80%;
+}
+.banp{
+  margin-top:3%;
+  color: 	#c8c6c4;
+  max-width: 80%;
+  /* border: 2px solid red; */
+}
+.banbtn{
+  /* border: 2px solid red; */
+  margin-top:3%;
+  max-width: 80%;  
+}
+.banbtn2{
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px; 
+  border-radius: 20px;
+  background-color:black ;
+  color: white;
+  border:1px ridge #c8c6c4;
+}
+.joinbtn{
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px; 
+  border-radius: 20px;
+  background-color:#E6533C ;
+  color: white;
+  border:none;
+}
+.banimg{
+  margin-right: 350px;
+}
+.fiftyplus{
+  background-color: #413d3d ;
+  position: absolute;
+  top: 25%;
+  left: 65%;
+  border-radius: 15px;
+  width: 150px;
+  height: 80px;
+}
+.thirtyplus{
+  background-color: #413d3d ;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 15px;
+  width: 150px;
+  height: 80px;
+}
+.red{
+  border-radius: 80px;
+  background-color: #E6533C;
+}
+/* bannersectionend */
+/* mainsectionstarts */
+/* mainhabite */
 .Habits{
+  border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 1200px;
-  max-height: 480px;
-  margin: auto auto;
+  max-width: 90%;
+  max-height: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 .Habits1{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top:50px ;
-
-}
-.Habits1 img{
-  border-radius: 90px;
-  margin-top:50px ;
+  text-align: center;
+  margin-top:0px ;
+  border: 2px solid red;
 }
 .Habits2{
-  text-align: center;
-  margin-top:50px ;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top:20px ;
+  border: 2px solid red;
+  max-width: 100%;
 }
-/* div2 */
+.Habits2_1{
+  /* border: 2px solid red; */
+  max-width: 25%;
+}
+.Habits2_2{
+  /* border: 2px solid red; */
+  max-width: 25%;
+}
+.Habits2_3{
+  /* border: 2px solid red; */
+  max-width: 25%;
+}
+.Habits2_4{
+  /* border: 2px solid red; */
+  max-width: 25%;
+}
+.Habits2 img{
+  border-radius: 90px;
+  margin-top:0px ;
+  /* border: 2px solid red; */
+}
+
+/* mainhabiteend */
+/* mainrunstart */
 
 .run{
   display: flex;
@@ -80,56 +202,83 @@ body{
   justify-content: space-between;
   border-radius: 15px;
   background-color: #222222;
-  max-height: 480px;
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top:50px ;
-  
+  max-height: 100%;
+  max-width: 90%;
+  margin: 0 auto;  
+  margin-top:30px ;
+  border: 2px solid red;
 }
 .run1{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top:50px ;
+  flex-direction: column;     
+  /* border: 2px solid red; */
+  max-width: 50%;  
 }
-.runimg{
-  border-radius: 15px;
-  margin: 50px;  
+.run1_1{
+  margin-top: 30px;  
+}
+.run1_2{
+  margin-top: 30px;    
+}
+.run2{
+  /* border: 2px solid red; */
+  max-width: 50%;
+  text-align: center;
 }
 
+/* mainrunend */
+/* mainbmistart */
+ /* bmicalculaterdecribtionstart */
 .bmi{
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  max-width: 1200px;
-  max-height: 480px;
+  max-width:90%;
+  max-height: 100%;
   margin: 0 auto;
   text-align: center;
-  margin-top:50px ;
-  
+  margin-top:30px ;
+  border: 2px solid red;
 }
+/*bmicalculaterdecribtionstart  */
+ /* bmicalculater  */
 .bmical{
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   background-color: #222222;
-  margin-top:50px ;
-  
+  margin-top:30px ;
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid red;
 }
-table, th, td {
-  border:1px solid white;
-  max-width: 1200px;
-  max-height: 480px;
+.bmical1{
+  /* border: 2px solid red; */
+  max-width: 100%;
+}
+.bmical2{
+  border: 2px solid red;
+  max-width: 50%;
+}
+
+table, th, td ,tr{
+
+  /* border:1px solid white; */
+  max-width: 100%;
+  max-height: 50%;
   margin: 0 auto;
   margin-top:10px ;
+  text-decoration: none;
+  color: 	#c8c6c4;
 }
-.input{
-  display: flex;
-}
+
+ /* bmicalculater */
+/* mainbmiend */
 .team{ 
   max-height: 480px;
   max-width: 1200px;
   margin-top:50px ; 
+  margin: 0 auto;
 }
 .ourteam{
   display: flex;
@@ -138,6 +287,7 @@ table, th, td {
   margin-left: 50px;
   margin-top:50px ;
   text-align: center;
+  
 }
 .traine ,img{
   display: grid;
@@ -186,6 +336,7 @@ table, th, td {
   margin: 0 auto;
   margin-top:50px ;
   background-color: #222222;
+  margin-bottom: 20px;
 }
 .fter1{
   display: flex;

@@ -3,6 +3,7 @@
 .nav-main{
     flex-direction: column;
     align-items: center;
-    
+    max-width: fit-content;
+    max-height: 100%;
   } 
 }
