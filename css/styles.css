@@ -17,8 +17,7 @@ p{
 
 /* navsectionstar */
 
-.navwap{
-  background-color:#111111 ;
+.navwap{  
   max-width: 100%;
   height: 100%;
   margin-top:0px ;  
@@ -30,13 +29,14 @@ p{
   justify-content:space-around;
   flex-direction: row;
   max-width: 90%;
-  max-height: 280px;  
-  margin: 0 auto;    
-  
+  max-height: 100%;  
+  margin: 0 auto;
+  /* border: 2px solid red;   */
 }
 .nav-main-1{
   color:#E6533C;
   margin-right: 60%;
+  /* border: 2px solid red; */
 } 
 .nav-main-2{
   border: 1px ridge #c8c6c4;
@@ -68,7 +68,10 @@ p{
   margin: 0 ,auto;
   border:none;
 } 
-
+.bar{
+  /* border: 2px solid red; */
+  
+}
 /* navsectionend */
 
 /* bannersectionstart */
@@ -134,22 +137,22 @@ p{
   margin-right: 350px;
 }
 .fiftyplus{
-  background-color: #413d3d ;
+  background-color: #ff222222 ;
   position: absolute;
   top: 25%;
   left: 65%;
   border-radius: 15px;
-  width: 150px;
-  height: 80px;
+  width: 10%;
+  height: 11%;
 }
 .thirtyplus{
-  background-color: #413d3d ;
+  background-color: #ff222222 ;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 45%;
   border-radius: 15px;
-  width: 150px;
-  height: 80px;
+  width: 8%;
+  height: 10%;
 }
 .red{
   border-radius: 80px;
@@ -292,7 +295,7 @@ p{
   /* border: 2px solid red;   */
 }
 .bmical2{
-  /* border: 2px solid red; */
+   /* border: 2px solid red;  */
   display: flex;
   flex-direction: column;
 }
@@ -307,9 +310,36 @@ table, th, td ,tr{
   color: 	#c8c6c4;
 }
 .input2{
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
+  grid-template-rows: repeat(2,1fr);
+  height: 50%;
 
 }
 
+#text{
+  background-color: #3C3D37;
+  color: #c8c6c4;
+  border-radius: 10px;
+  border: none;
+  padding: 10px ,20px, 10px, 20px;
+  margin-top: 5px;
+  height: 80%;
+}
+#text1{
+  background-color: #3C3D37;
+  color: #c8c6c4;
+  border-radius: 10px;
+  
+  margin-top: 5px;
+  height: 80%;
+  border: none;
+  width: 100%;
+}
+.input3{
+  /* border: 2px solid red; */
+}
  /* bmicalculater */
 /* mainbmiend */
 
@@ -358,8 +388,37 @@ table, th, td ,tr{
   /* border: 2px solid red; */
   border-radius: 15px;
   text-align: center;
-  max-width: 100%;
-    
+  max-width: 100%;    
+}
+.trainer2{
+  position:absolute;
+  left: 80px;
+  top:1800px;
+}
+.trainer3{
+  position:absolute;
+  left: 500px;
+  top:1800px;
+}
+.trainer4{
+  position:absolute;
+  left: 900px;
+  top:1800px;
+}
+.trainer5{
+  position:absolute;
+  left: 80px;
+  top:2200px;
+}
+.trainer6{
+  position:absolute;
+  left: 500px;
+  top:2200px;
+}
+.trainer7{
+  position:absolute;
+  left: 900px;
+  top:2200px;
 }
 
 /* maintraineend */
