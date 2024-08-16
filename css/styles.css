@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Ballet:opsz@16..72&family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     margin: 0;
     padding:0 ;
@@ -21,7 +21,6 @@ p{
   background-color:#111111 ;
   max-width: 100%;
   height: 100%;
-  border: 2px solid red;
   margin-top:0px ;  
   padding: 2px;
   text-align: center;
@@ -33,11 +32,10 @@ p{
   max-width: 90%;
   max-height: 280px;  
   margin: 0 auto;    
-  /* border: 2px solid red; */
+  
 }
 .nav-main-1{
   color:#E6533C;
-  /* border: 2px solid red;   */
   margin-right: 60%;
 } 
 .nav-main-2{
@@ -83,11 +81,15 @@ p{
   max-width: 90%;
   max-height: 100%;  
   margin: 0 auto; 
-  margin-top: ;
-  border: 2px solid red; 
+}
+.style{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style:normal;
 }
 .banner1{
-  /* border: 2px solid red; */
+  
   display:flex;
   flex-direction: column;  
   max-width: 50%;
@@ -161,7 +163,7 @@ p{
 /* mainhabite */
 
 .Habits{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -173,14 +175,14 @@ p{
 .Habits1{
   text-align: center;
   margin-top:0px ;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .Habits2{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-top:20px ;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   max-width: 100%;
 }
 .Habits2_1{
@@ -219,7 +221,7 @@ p{
   max-width: 90%;
   margin: 0 auto;  
   margin-top:30px ;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .run1{
   display: flex;
@@ -234,9 +236,17 @@ p{
   margin-top: 30px;    
 }
 .run2{
-  /* border: 2px solid red; */
+  /* border: 2px solid red;  */
   max-width: 50%;
   text-align: center;
+  border-radius: 16px;
+}
+.runimg{
+  border-radius: 16px;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  
 }
 
 /* mainrunend */
@@ -254,7 +264,7 @@ p{
   margin: 0 auto;
   text-align: start;
   margin-top:30px ;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 
@@ -267,11 +277,11 @@ p{
   margin-top:30px ;
   max-width: 100%;
   max-height: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .bmical{
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   max-width:90%;
   max-height: 100%;
   display: flex;
@@ -279,10 +289,10 @@ p{
   justify-content: space-between;
 }
 .bmical1{
-  border: 2px solid red;  
+  /* border: 2px solid red;   */
 }
 .bmical2{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
 }
@@ -291,7 +301,7 @@ table, th, td ,tr{
   border:1px solid white;
   max-width: 100%;
   max-height: 50%;
-  margin: 0 auto;
+  margin: 0;
   margin-top:10px ;
   text-decoration: none;
   color: 	#c8c6c4;
@@ -304,23 +314,23 @@ table, th, td ,tr{
 /* mainbmiend */
 
 .team{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-top:30px ; 
 }
 .team1{ 
   margin-top:30px ; 
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .ourteam{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 0 auto;
 }
 .ourteam1{  
   margin-top:30px ;
   margin: 0 auto;
   text-align: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   max-width: 90%;
   max-height: 100%;
 }
@@ -328,18 +338,29 @@ table, th, td ,tr{
   margin-top:30px ;
 }
 .traineimg{
-  margin-top:30px ;
+  margin-top:10px ;
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(2 ,1fr);
+  grid-template-rows: repeat(2 ,2fr);
   background-color: #222222;
   margin: 0 auto;
   border-radius: 15px; 
-  border: 2px solid red;
+  /* border: 2px solid red; */
   max-width: 90%;
+  max-height: 80%;
+}
+.traineimg1{  
+  border-radius: 15px;
+  /* border: 2px solid red; */
   max-height: 100%;
 }
-
+.trainer1{
+  /* border: 2px solid red; */
+  border-radius: 15px;
+  text-align: center;
+  max-width: 100%;
+    
+}
 
 /* maintraineend */
 
@@ -353,36 +374,51 @@ table, th, td ,tr{
   justify-content: center;
   flex-direction: column;
   max-width:100%;
-  max-height: 100%; 
-  margin: 0 auto;
+  max-height: 100%;  
   margin-top:30px ;
   background-color: #222222;
   margin-bottom: 50px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .fter1{
   display: flex;
   flex-direction: column;   
-  margin:0 auto ;
-  border: 2px solid red;
+  margin-left: 80px;
+  /* border: 2px solid red; */
   max-width: 90%;
-  max-height: 100%;
-  
+  margin-top: 10px;
+  margin-bottom: 10px;  
 }
 .fter1_1{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content:space-between;
   flex-direction: row;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 100%; 
+  margin-bottom: 10px;
+}
+.em{
+color:#E6533C;
+}
+.hr{ 
+  background-color: #222222;
 }
 .fter1_1_1{
-
+  max-width: 100%;
+  /* border: 2px solid red; */
 }
-.fter1_2{
-  border: 2px solid red;
+.get{
+  /* border: 2px solid red; */
+  max-width: 100%;
+  margin: 0 auto;  
+}
+.fter1_2{  
+  max-width: 100%;
 }
 .fter1_2_1{
-  
+  text-align: center;
+  margin-top: 10px;
+  max-width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

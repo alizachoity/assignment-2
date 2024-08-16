@@ -1,9 +1,237 @@
 @media screen and (max-width: 500px){
    
 .nav-main{
+    display:flex;
     flex-direction: column;
     align-items: center;
     max-width: fit-content;
     max-height: 100%;
   } 
+  .navwap{
+    background-color:#111111 ;
+    max-width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    margin-top:0px ;  
+    padding: 2px;
+    text-align: center;
+    display: flex ;
+    flex-direction: column;
+  }
+  .nav-main{
+    display: flex;
+    justify-content:space-around;
+    flex-direction:column ;
+    max-width: 90%;
+    max-height: 100%;  
+    margin: 0 auto;    
+    /* border: 2px solid red; */
+  }
+  .nav-main-2{
+    border: 1px ridge #c8c6c4;    
+    
+  }
+  .banner{
+    color: white;
+    display:flex;
+    flex-direction: column;  
+    justify-content:space-between;
+    max-width: 100%;
+    max-height: 100%;  
+    margin: 0 auto;     
+    border: 2px solid red; 
+  }
+  .banner1{
+    /* border: 2px solid red; */
+    display:flex;
+    flex-direction: column;  
+    max-width:100%;
+    text-align:start ;  
+  }
+  
+
+  .banbtn{
+    /* border: 2px solid red; */
+    margin-top:3%;
+    max-width: 80%;  
+  }
+  .banbtn2{
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px; 
+    border-radius: 20px;
+    background-color:black ;
+    color: white;
+    border:1px ridge #c8c6c4;
+    margin-top:3%;
+  }
+  /* bannerend */
+  .Habits{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .Habits2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:20px ;
+    border: 2px solid red;
+    max-width: 100%;
+  }
+  .Habits2_1{
+    /* border: 2px solid red; */
+    max-width: 100%;
+  }
+  .Habits2_2{
+    /* border: 2px solid red; */
+    max-width: 100%;
+  }
+  .Habits2_3{
+    /* border: 2px solid red; */
+    max-width: 100%;
+  }
+  .Habits2_4{
+    /* border: 2px solid red; */
+    max-width: 100%;
+  }
+  /* habitsend */
+  .run{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: #222222;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 auto;  
+    margin-top:30px ;
+    border: 2px solid red;
+    text-align: center;
+  }
+  .run1{
+    display: flex;
+    flex-direction: column;     
+    /* border: 2px solid red; */
+    max-width: 100%;  
+  }
+  .run2{
+    /* border: 2px solid red; */
+    max-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+  .runimg{
+    border-radius: 16px;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    
+  }
+  /* runend   */
+  .bmica{
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    margin-top:30px ;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid red;
+  }
+  .bmical{
+    margin: 0 auto;
+    border: 2px solid red;
+    max-width:90%;
+    max-height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+  }
+  .traineimg{
+    margin-top:10px ;
+    display: flex;
+    flex-direction: column;    
+    background-color: #222222;
+    margin: 0 auto;
+    border-radius: 15px; 
+    border: 2px solid red;
+    max-width: 90%;
+    max-height: 100%;
+  }
+.trainer1{
+  max-width: 90%;
+  max-height: 100%;
+}
+.traineimg1{  
+  border-radius: 15px;
+  border: 2px solid red;
+  max-height: 80%;
+  max-width: 100%;
+}
+.trainer1{
+  border: 2px solid red;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 100%;  
+}
+/* traineend */
+.fter{
+  display: flex;
+  justify-content:start;
+  flex-direction: column;  
+  max-height: 100%;  
+  background-color: #222222;  
+  /* border: 2px solid red;  */
+  max-width: 100%; 
+}
+.fter1{
+  display: flex;
+  flex-direction: column;  
+  /* border: 2px solid red; */
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px; 
+}
+.fter1_1{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content:space-between;
+  flex-direction: column;
+  max-width: 100%; 
+  margin-bottom: 5px;
+}
+.fter1_1_1{
+  max-width: 100%;
+  /* border: 2px solid red; */
+  margin-bottom: 15px;
+}
+.get{
+  /* border: 2px solid red; */
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
+  margin-left: 0px; 
+  margin-bottom: 15px;
+}
+.fter1_2{
+  /* border: 2px solid red; */
+  max-width: 100%;
+}
+.fter1_2_1{
+  text-align: center;
+  margin-top: 10px;
+  max-width: 100%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
 }
