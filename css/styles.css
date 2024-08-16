@@ -67,10 +67,9 @@ p{
   border-radius: 20px;  
   margin: 0 ,auto;
   border:none;
-} 
-.bar{
-  /* border: 2px solid red; */
-  
+}
+.fa-bars{   
+   display: none;
 }
 /* navsectionend */
 
@@ -282,6 +281,7 @@ p{
   max-height: 100%;
   /* border: 2px solid red; */
 }
+
 .bmical{
   margin: 0 auto;
   /* border: 2px solid red; */
@@ -291,11 +291,8 @@ p{
   flex-direction: row;
   justify-content: space-between;
 }
-.bmical1{
-  /* border: 2px solid red;   */
-}
-.bmical2{
-   /* border: 2px solid red;  */
+
+.bmical2{   
   display: flex;
   flex-direction: column;
 }
@@ -337,9 +334,7 @@ table, th, td ,tr{
   border: none;
   width: 100%;
 }
-.input3{
-  /* border: 2px solid red; */
-}
+
  /* bmicalculater */
 /* mainbmiend */
 

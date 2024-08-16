@@ -3,8 +3,10 @@
 .nav-main{    
     max-width: 100%;
     max-height: 100%;
-    /* border: 2px solid red;  */
-  } 
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;  
+  }
   .navwap{
     background-color:#111111 ;
     max-width: 100%;
@@ -18,16 +20,17 @@
   }
 
   .nav-main-1{
-    color: #E6533C;   
-    /* border: 2px solid red; */
-    margin-right: 500px;
+    color: #E6533C;    
+    margin-right: 500px;   
   }  
   .nav-main-2{
-    display: none;   
+   display: none;
   }
-  .bar{
-      border: 2px solid red; 
-      height: 100%;   
+  .fa-bars{
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: white;    
   }
   .banner{
     color: white;
@@ -49,7 +52,7 @@
   }
   .banner2{
     max-width:100%;
-    max-height: 80%;
+    max-height: 50%;
     /* border: 2px solid red;  */
   }
   .banbtn{
