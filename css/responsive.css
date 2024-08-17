@@ -5,7 +5,8 @@
     max-height: 100%;
     display: flex;
     flex-direction: row;
-    border: 2px solid red;  
+    justify-content: center;
+     /* border: 2px solid red;    */
   }
   .navwap{
     background-color:#111111 ;
@@ -21,15 +22,15 @@
 
   .nav-main-1{
     color: #E6533C;    
-    margin-right: 500px;   
+    margin-right: 320px;   
   }  
   .nav-main-2{
    display: none;
   }
-  .fa-bars{
+  .solid{
     display: block;
-    height: 100%;
-    width: 100%;
+    
+   
     color: white;    
   }
   .banner{
@@ -37,7 +38,7 @@
     display:flex;
     flex-direction: column;  
     justify-content:space-between;
-    max-width: 100%;
+    max-width: 90%;
     max-height: 100%;  
     margin: 0 auto;     
     /* border: 2px solid red;  */
@@ -46,7 +47,7 @@
     /* ; */
     display:flex;
     flex-direction: column;  
-    max-width:100%;
+    max-width:90%;
     max-height: 50%;
     text-align:start ;  
   }
@@ -110,7 +111,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 100%;
+    max-width: 90%;
     max-height: 100%;
     margin: 0 auto;
     margin-top: 30px;
@@ -126,18 +127,22 @@
   .Habits2_1{
     /* border: 2px solid red; */
     max-width: 100%;
+    margin-bottom: 20px;
   }
   .Habits2_2{
     /* border: 2px solid red; */
     max-width: 100%;
+    margin-bottom: 20px;
   }
   .Habits2_3{
     /* border: 2px solid red; */
     max-width: 100%;
+    margin-bottom: 20px;
   }
   .Habits2_4{
     /* border: 2px solid red; */
     max-width: 100%;
+    margin-bottom: 20px;
   }
   /* habitsend */
   .run{
@@ -147,7 +152,7 @@
     border-radius: 15px;
     background-color: #222222;
     max-height: 100%;
-    max-width: 100%;
+    max-width: 90%;
     margin: 0 auto;  
     margin-top:30px ;
     /* border: 2px solid red; */
