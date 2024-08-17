@@ -12,7 +12,7 @@ body{
   margin: 0 auto;  
 }
 p{
-  color:#c8c6c4;
+ color: #736e68;
 }
 
 /* navsectionstar */
@@ -23,13 +23,14 @@ p{
   margin-top:0px ;  
   padding: 2px;
   text-align: center;
+  background-image: linear-gradient(#111111 #777777);
 }
 .nav-main{
   display: flex;
   justify-content:space-around;
   flex-direction: row;
   max-width: 90%;
-  max-height: 100%;  
+   
   margin: 0 auto;
   /* border: 2px solid red;   */
 }
@@ -40,33 +41,31 @@ p{
 } 
 .nav-main-2{
   border: 1px ridge #c8c6c4;
-  padding-left: 40px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-right: 40px; 
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 10px; 
   border-radius: 20px;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content:center;
+
 }
 .navbtn{  
   border-radius: 20px;
   background-color:black;
-  color: white;
-  padding-left: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 10px;  
+  color: #c8c6c4;  
   border:none;
+  margin-right: 20px;
+  padding: 5px 10px 5px 10px;
 } 
 .navbtn-1{
   background-color:#E6533C ;
-  padding-left: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 10px;
+  color: #c8c6c4;
   border-radius: 20px;  
-  margin: 0 ,auto;
-  border:none;
+  border: none;
+  margin-right: 30px;  
+  padding: 5px 10px 5px 10px;
 }
 .solid{   
    display:none ;
@@ -98,7 +97,7 @@ p{
 }
 .banh{
   /* border: 2px solid red; */
-  max-width: 80%;
+  max-width: 90%;
 }
 .banp{
   margin-top:3%;
@@ -135,22 +134,24 @@ p{
   margin-right: 350px;
 }
 .fiftyplus{
-  background-color: #ff222222 ;
+  background-color: #36312b ;
   position: absolute;
   top: 25%;
   left: 65%;
   border-radius: 15px;
   width: 10%;
   height: 11%;
+  text-align: center;
 }
 .thirtyplus{
-  background-color: #ff222222 ;
+  background-color: #36312b;
   position: absolute;
   top: 50%;
   left: 45%;
   border-radius: 15px;
   width: 8%;
   height: 10%;
+  text-align: center;
 }
 .red{
   border-radius: 80px;
@@ -179,9 +180,9 @@ p{
   /* border: 2px solid red; */
 }
 .Habits2{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  display: flex;  
+  flex-direction:row;
+  justify-content: space-between;  
   margin-top:20px ;
   /* border: 2px solid red; */
   max-width: 90%;
@@ -297,13 +298,13 @@ p{
 }
 
 table, th, td ,tr{
-  border:1px solid white;
+  border:1px solid #736e68;
   max-width: 100%;
   max-height: 50%;
   margin: 0;
   margin-top:10px ;
   text-decoration: none;
-  color: 	#c8c6c4;
+  color: 	#736e68;
 }
 .input2{
   /* border: 2px solid red; */
@@ -317,7 +318,11 @@ table, th, td ,tr{
   display: grid;  
   grid-template-rows: 40px;
   grid-template-columns:auto ;
+  color: #736e68;  
 }
+.fa-chevron-down{
+  margin-left: 65%;
+ }
 #text{
   background-color: #3C3D37;
   color: #c8c6c4;
@@ -329,8 +334,7 @@ table, th, td ,tr{
 #text1{
   background-color: #3C3D37;
   color: #c8c6c4;
-  border-radius: 10px;
-  
+  border-radius: 10px;  
   margin-top: 5px;
   height: 80%;
   border: none;
@@ -365,16 +369,24 @@ table, th, td ,tr{
   margin-top:30px ;
 }
 .traineimg{
-  margin-top:10px ;
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(2 ,2fr);
   background-color: #222222;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 280px 280px 280px;
+  grid-gap:15px;
+  grid-template-rows:250px 250px; 
+  justify-content: center;
   border-radius: 15px; 
   /* border: 2px solid red; */
+  padding: 3px ; 
   max-width: 90%;
-  max-height: 80%;
+  margin: 0 auto;
+}
+.traineimg2{
+  /* border: 2px solid red;
+  background-color: #222222; */
+  max-width: 75%;
+  max-height: 30%;
+  margin-left: 170px;
 }
 .traineimg1{  
   border-radius: 15px;
@@ -385,38 +397,39 @@ table, th, td ,tr{
   /* border: 2px solid red; */
   border-radius: 15px;
   text-align: center;
-  max-width: 100%;    
+  max-width: 100%;
+  max-height: 100%;    
 }
-.trainer2{
+ .trainer2{
   position:absolute;
-  left: 80px;
-  top:1800px;
+  left: 280px;
+  top:1680px;
 }
 .trainer3{
   position:absolute;
-  left: 500px;
-  top:1800px;
-}
+  left: 570px;
+  top:1680px;
+} 
 .trainer4{
   position:absolute;
-  left: 900px;
-  top:1800px;
-}
+  left:870px;
+  top:1680px;
+} 
 .trainer5{
   position:absolute;
-  left: 80px;
-  top:2200px;
+  left: 280px;
+  top:1950px;
 }
 .trainer6{
   position:absolute;
-  left: 500px;
-  top:2200px;
+  left: 570px;
+  top:1950px;
 }
 .trainer7{
   position:absolute;
-  left: 900px;
-  top:2200px;
-}
+  left:870px;
+  top:1950px;
+} */
 
 /* maintraineend */
 

@@ -200,20 +200,23 @@
   .bmical2{
     margin-top: 30px;
   }
+  .fa-chevron-down{
+   margin-left: 50%;
+  }
   /* bmicalculaterend */
   .traineimg{
     margin-top:10px ;
     display: flex;
     flex-direction: column;    
     background-color: #222222;
-    margin: 0 auto;
+   margin-right:50px;
     border-radius: 15px; 
     /* border: 2px solid red; */
-    max-width: 90%;
+    max-width: 100%;
     max-height: 100%;
   }
 .trainer1{
-  max-width: 90%;
+  max-width: 100%;
   max-height: 100%;
 }
 .traineimg1{  
@@ -221,6 +224,22 @@
   /* border: 2px solid red; */
   max-height: 80%;
   max-width: 100%;
+}
+.traineimg{
+ 
+  justify-content: center;
+  border-radius: 15px; 
+  /* border: 2px solid red; */
+  padding: 3px ; 
+  max-width: 100%;
+  margin: 0 auto;
+}
+.traineimg2{
+ /* border: 2px solid red; */
+  background-color: #222222; 
+  max-width: 90%;
+  max-height: 30%;
+  margin-left: 20px;
 }
 .trainer1{
   /* border: 2px solid red; */
@@ -231,32 +250,32 @@
 .trainer2{
   position:absolute;
   left: 60px;
-  top:3450px;
+  top:3500px;
 }
 .trainer3{
   position:absolute;
   left: 60px;
-  top:3770px;
+  top:3830px;
 }
 .trainer4{
   position:absolute;
   left: 60px;
-  top:4180px;
+  top:4230px;
 }
 .trainer5{
   position:absolute;
   left: 60px;
-  top:4400px;
+  top:4470px;
 }
 .trainer6{
   position:absolute;
   left: 60px;
-  top:4780px;
+  top:4850px;
 }
 .trainer7{
   position:absolute;
   left: 60px;
-  top:5090px;
+  top:5200px;
 }
 
 
